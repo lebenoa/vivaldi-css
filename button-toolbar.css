@@ -1,0 +1,7 @@
+#main .button-toolbar button {
+  transition: all 200ms;
+}
+
+#main .button-toolbar button:hover {
+  background-color: var(--colorHighlightBg) !important;
+}

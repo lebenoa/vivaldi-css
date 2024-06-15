@@ -1,0 +1,4 @@
+#panels .webpanel-stack .webpanel .webpanel-header {
+  box-shadow: none;
+  backdrop-filter: blur(4px);
+}

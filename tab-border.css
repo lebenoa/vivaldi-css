@@ -1,0 +1,17 @@
+#tabs-tabbar-container .tab {
+  border: 1px solid transparent;
+  border-bottom-width: 0;
+}
+
+#tabs-tabbar-container .tab.active {
+  border-color: var(--colorHighlightBg);
+}
+
+#tabs-tabbar-container::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  background-color: var(--colorHighlightBg);
+}

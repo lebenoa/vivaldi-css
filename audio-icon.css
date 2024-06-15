@@ -1,0 +1,15 @@
+.tab .tab-audio {
+  transform: scale(0.8) !important;
+  left: 1px;
+  bottom: 0;
+  border-radius: 100%;
+  background-color: rgba(200, 180, 180, 0.85) !important;
+  color: var(--colorBg) !important;
+  padding: unset;
+  height: 16px;
+  width: 16px;
+}
+
+#browser:not(.alt-tabs) #tabs-container .tab:not(.pinned):not(.tab-small).audio-on .favicon {
+  transform: none;
+}
