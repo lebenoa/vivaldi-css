@@ -2,7 +2,7 @@
   transform: scale(0.8) !important;
   left: 1px;
   bottom: 0;
-  color: var(--colorHighlightBg) !important;
+  color: var(--colorFg) !important;
   padding: unset;
   height: 16px;
   width: 16px;

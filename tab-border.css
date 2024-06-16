@@ -1,17 +1,21 @@
-#tabs-tabbar-container .tab {
-  border: 1px solid transparent;
-  border-bottom-width: 0;
-}
+/* #tabs-tabbar-container .tab { */
+/* border: 1px solid transparent; */
+/* border-bottom-width: 0; */
+/* } */
 
-#tabs-tabbar-container .tab.active {
-  border-color: var(--colorHighlightBg);
-}
+/* #tabs-tabbar-container .tab.active { */
+/* border-color: var(--colorHighlightBg); */
+/* } */
 
-#tabs-tabbar-container::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  height: 1px;
-  width: 100%;
-  background-color: var(--colorHighlightBg);
-}
+/* #tabs-tabbar-container::before { */
+/* content: ""; */
+/* position: absolute; */
+/* bottom: 0; */
+/* height: 1px; */
+/* min-height: 1px; */
+/* max-height: 1px; */
+/* left: 0; */
+/* width: 100%; */
+/* border-bottom: 1px solid var(--colorHighlightBg); */
+/* border-image: linear-gradient(to right, var(--colorHighlightBg) 82%, transparent 96%); */
+/* } */
