@@ -7,6 +7,10 @@
   border-bottom-width: 0;
 }
 
+.SearchField, .MailSearchField-Inner, .UrlBar-AddressField {
+  background-color: transparent;
+}
+
 #main .mainbar .observer .OmniDropdown {
   background-color: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(1rem);
