@@ -2,6 +2,10 @@
   transition: all 200ms;
 }
 
+#switch > * > .button-toolbar:not( .toolbar-spacer, .toolbar-spacer-panel, .toolbar-spacer-flexible, .toolbar-divider):hover {
+  background-color: transparent;
+}
+
 #main .button-toolbar button:hover {
-  background-color: var(--colorHighlightBg) !important;
+  background-color: var(--colorFgAlpha) !important;
 }
